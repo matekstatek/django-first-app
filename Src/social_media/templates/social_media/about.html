@@ -1,0 +1,10 @@
+{% extends 'social_media/base.html' %}
+{% block content %}
+    {% load tz %}
+    {% timezone "Europe/Warsaw" %}
+    <h2>About Site</h2> <br>
+        <article class="media content-section">
+          <p>This website was made by midshipman Aleksandra Sobolewska.</p>
+        </article>
+    {% endtimezone %}
+{% endblock content %}
